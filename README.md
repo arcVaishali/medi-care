@@ -6,7 +6,7 @@ Hack for patient consent management using react.js, ether.js, ipfs, tailwindCss,
 
 - Git Bash the below command-
 ```
-git clone https://github.com/arcVaishali/data-hackfest
+git clone git@github.com:arcVaishali/data-hackfest.git
 ```
 
 - Move to frontend folder run the following command 
