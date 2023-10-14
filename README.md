@@ -20,7 +20,7 @@ npm install
 ```
 
 - Work on pages assigned, or any feature in frontend folder
-- 
+  
 - To run the frontend on your local development server
 ```
 npm start
