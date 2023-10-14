@@ -7,9 +7,9 @@ const Login = () => (
     <div className="shadow-md h-[450px] shadow-[#4D8470] rounded-xl border-2 border-[#A2E4A1] bg-gradient-to-t from-[#4D8470] to-[#A2E4A1] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8" style={{ backgroundColor: "#BAAC9A" }}>
     <div className="card mb-12" style={{ backgroundColor: "#4D8470", border: 'black 2px solid'}}>
       <div className="row g-0">
-        <div className="col-md-4">
-          <img src="frame2.jpg" height="200" width="200" className="card-img" alt="" /><br></br>
-            <h1 class="card-title" style={{color: "white", textAlign:"center"}}><b>MediCare</b></h1>
+        <div className="col-md-4 mg-2">
+          <img src="frame2.jpg" height="300" width="300" className="card-img" alt="" />
+            <h1 class="card-title" style={{color: "white", textAlign:"center", fontSize:25}}><b>MediCare</b></h1>
             <p class="card-text" style={{textAlign:"center", color:"white"}}>We are always there for you.</p>
         </div>
         <div className="col-md-8">
@@ -18,7 +18,7 @@ const Login = () => (
             <div className="card text-center">
               <div className="card-header">
                 <h1>
-                  <strong>Login In</strong>
+                  <strong style={{fontSize:20}}>Login In</strong>
                 </h1>
               </div>
               <div className="card-body" style={{ backgroundColor: "#4D8470", border: "black 2px solid" }}>

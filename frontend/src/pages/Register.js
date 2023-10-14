@@ -9,7 +9,7 @@ const Register = () => (
       <div className="row g-0">
         <div className="col-md-4">
           <img src="frame2.jpg" height="200" width="200" className="card-img" alt="" /><br></br>
-            <h1 class="card-title" style={{color: "white", textAlign:"center"}}><b>MediCare</b></h1>
+            <h1 class="card-title" style={{color: "white", textAlign:"center", fontSize:25}}><b>MediCare</b></h1>
             <p class="card-text" style={{textAlign:"center", color:"white"}}>We are always there for you.</p>
         </div>
         <div className="col-md-8">
@@ -18,7 +18,7 @@ const Register = () => (
             <div className="card text-center">
               <div className="card-header">
                 <h1>
-                  <strong>Create Account</strong>
+                  <strong style={{fontSize:20}}>Create Account</strong>
                 </h1>
               </div>
               <div className="card-body" style={{ backgroundColor: "#4D8470", border: "black 2px solid" }}>
@@ -58,7 +58,7 @@ const Register = () => (
                       aria-describedby="password" />
                   </div>
                   <div className="hey" style={{ border: " black 2px solid" }}>
-                    <p><b>Fill the consent form*:</b></p>
+                    <p style={{fontSize:20, color:"white"}}>Fill the consent form*</p>
                     <a href="#" className="btn btn-primary">
                       Consent Form
                     </a>
