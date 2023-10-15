@@ -1,30 +1,28 @@
-<<<<<<< HEAD
-import logo from './logo.svg';
-import './App.css';
-import Register from './pages/Register'
-import Login from './pages/Login'
-import ConsentForm from './pages/ConsentForm';
-import Consenter from './pages/Consenter';
-import ConsentForm2 from './pages/ConsentForm2';
-import Auth from "./pages/Auth"
-import LandingPage from './pages/LandingPage';
-import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import IPFSPinataJSON from "./IPFSPinataJSON";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import "./App.css";
+import ConsentForm from "./pages/ConsentForm";
+import Consenter from "./pages/Consenter";
+import ConsentForm2 from "./pages/ConsentForm2";
 
 function App() {
   return (
-    <>
-    <LandingPage></LandingPage>
-     {/* <Register></Register> */}
-     {/* <Login></Login> */}
-     {/* <ConsentForm></ConsentForm> */}
-     {/* <ConsentForm2></ConsentForm2> */}
-     {/* <Auth></Auth> */}
-      {/* <Consenter></Consenter> */}
-     <Navbar></Navbar>
-    </>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Home />}></Route> */}
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/consent" element={<ConsentForm />}></Route>
+        <Route path="/next" element={<ConsentForm2 />}></Route>
+        <Route path="/consenter" element={<Consenter />}></Route>
+        <Route path="/upload-on-ipfs" element={<IPFSPinataJSON />}></Route>
+        <Route></Route>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
 export default App;
-=======
->>>>>>> ce20497dea8dc08fec92be4666696002e44b01cb

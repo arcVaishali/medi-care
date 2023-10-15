@@ -4,6 +4,8 @@ const IPFSPinataJSON = () => {
   const object = {
     name: "ananya",
     age: "16",
+    dob:"14-02-2002",
+    
   };
   const res = JSON.stringify(object);
   const options = {
