@@ -20,7 +20,7 @@ const Consenter = () => {
 </div>
   <div class="mb-3">
   <label for="number" class="form-label" style={{color:"#A2E4A1", fontSize:20}}>Contact No.</label>
-  <input type="email" class="form-control" id="number"/>
+  <input type="number" class="form-control" id="number"/>
 </div>
 </div>
     </div>
