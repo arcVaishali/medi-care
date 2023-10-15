@@ -4,14 +4,18 @@ import Register from './pages/Register'
 import Login from './pages/Login'
 import ConsentForm from './pages/ConsentForm';
 import Consenter from './pages/Consenter';
+import ConsentForm2 from './pages/ConsentForm2';
+import Auth from "./pages/Auth"
 
 function App() {
   return (
     <>
      {/* <Register></Register> */}
-     <Login></Login>
+     {/* <Login></Login> */}
      {/* <ConsentForm></ConsentForm> */}
-     {/* <Consenter></Consenter> */}
+     {/* <ConsentForm2></ConsentForm2> */}
+     <Auth></Auth>
+      {/* <Consenter></Consenter> */}
     </>
   );
 }
