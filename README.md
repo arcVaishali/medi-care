@@ -1,9 +1,9 @@
 <h1 align="center"> MLH Data Hackfest</h1>
-# MediCare
 
+# MediCare
 Hack for healthcare data security, storage and patient consent management using react.js, ether.js, IPFS, tailwindCss, solidity and hardhat.
 
-##Inspiration
+## Inspiration
 Understanding the current challenges and loopholes in existing healthcare data system, technological advancement in digitalization of patients record, learning from data breaches and privacy issues in healthcare, recognizing the importance of patient consent and their desire for control over their medical data and regulatory demands inspires us for a project MediCare. 
 
 ## What it does
