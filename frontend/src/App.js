@@ -9,9 +9,9 @@ function App() {
   return (
     <>
      {/* <Register></Register> */}
-     {/* <Login></Login> */}
+     <Login></Login>
      {/* <ConsentForm></ConsentForm> */}
-     <Consenter></Consenter>
+     {/* <Consenter></Consenter> */}
     </>
   );
 }

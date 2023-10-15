@@ -46,6 +46,7 @@ const Login = () => (
                       aria-label="Username"
                       aria-describedby="password" />
                   </div>
+                  <a href="#" className="btn btn-dark" style={{color:"white", fontSize:18}}>Submit</a>
                   <div class="card-footer" style={{ color: "white" }}>
                     Don't have an account? <a href="#" className="link">Sign Up</a>
                   </div>
