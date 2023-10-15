@@ -22,6 +22,7 @@ const Consenter = () => {
   <label for="number" class="form-label" style={{color:"#A2E4A1", fontSize:20}}>Contact No.</label>
   <input type="number" class="form-control" id="number"/>
 </div>
+<a href="#" className="btn btn-success" style={{color:"white", fontSize:20}}>Submit</a>
 </div>
     </div>
     </div>
