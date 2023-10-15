@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
     const navigation = [
       { navi: "Home", to: "/" },
-      { navi: "Work", to: "/register" },
-      { navi: "Contact", to: "/contact" },
+      { navi: "About", to: "/" },
+      { navi: "Login", to: "/login" },
     ];
     const socials = [
       { soc: "ri-facebook-circle-fill", src: "https://www.instagram.com" },
@@ -14,16 +14,16 @@ const LandingPage = () => {
     ];
     return (
       <div className="grid grid-cols-12 justify-center items-center min-h-screen">
-        <nav className="sticky top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-40">
+        <nav className="sticky top-0 left-0 grid col-span-12 justify-between items-center bg-[#134113cf] px-2 z-40">
           <div className="grid grid-cols-4 col-start-3 px-2 ">
-            <div className="flex justify-center items-center px-4 py-2 border-r-[1px] border-[#47433D] hover:bg-[#000]">
+            <div className="flex justify-center items-center px-4 py-2 border-r-[1px] border-[#47433D] hover:bg-[#2a6233d7]">
               <img
-                src="logo.jpg"
-                className="w-[90px]"
+                src="https://i.ibb.co/fpfQ1M2/logo-removebg-preview.png"
+                className="w-16"
               />
             </div>
             {navigation.map((element) => (
-              <div className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#000]">
+              <div className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#2a6233d7]">
                 <Link
                   to={element.to}
                   className="text-white text-base uppercase font-[300]"
@@ -36,7 +36,7 @@ const LandingPage = () => {
           <div className="grid grid-cols-4 col-start-10 col-span-3">
             {socials.map((element) => (
               <div className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
-                {/* / */}
+                {/*  */}
               </div>
             ))}
           </div>
@@ -64,24 +64,15 @@ const LandingPage = () => {
             <b>Empowering patients FIRST YOUR HEALTH, YOUR DATA, YOUR CHOICE.</b>
             </span>
             <div className="flex  z-20">
-              <div className="px-2 mr-4 py-2 my-2 border-4 border-white bg-transparent w-64  text-white text-center hover:bg-white hover:border-gray-300 hover:shadow-md hover:shadow-gray-500 hover:text-inherit">
+              <div className="px-4 mr-4 py-2 my-2  bg-[#2a6233d7] text-white text-center hover:bg-[#2a6233ae] rounded-md hover:shadow-md hover:shadow-gray-500 hover:text-black">
                 <Link
-                  to="/as-responder"
-                  className="flex items-center justify-center uppercase"
+                  to="/register"
+                  className="flex items-center justify-center uppercase hover:text-black"
                 >
-                  Get started as Responder
-                  <i class="ri-arrow-right-fill text-2xl"></i>
+                  Get Started
                 </Link>
               </div>
-              <div className="px-2 py-2 my-2 border-4 border-white bg-transparent w-64  text-white text-center hover:bg-white hover:border-gray-300 hover:shadow-md hover:shadow-gray-500 hover:text-inherit">
-                <Link
-                  to="/as-evacuee"
-                  className="flex items-center justify-center uppercase"
-                >
-                  Get started as Evacuee
-                  <i class="ri-arrow-right-fill text-2xl"></i>
-                </Link>
-              </div>
+              
             </div>
           </div>
         </div>

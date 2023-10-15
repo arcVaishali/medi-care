@@ -6,12 +6,12 @@ import "./App.css";
 import ConsentForm from "./pages/ConsentForm";
 import Consenter from "./pages/Consenter";
 import ConsentForm2 from "./pages/ConsentForm2";
-
+import LandingPage from "./pages/LandingPage";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {/* <Route path="/" element={<Home />}></Route> */}
+        <Route path="/" element={<LandingPage />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/consent" element={<ConsentForm />}></Route>
