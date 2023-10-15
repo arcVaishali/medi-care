@@ -80,3 +80,20 @@ cd backend
 npm install
 ```
 
+To compile smart contract
+```
+npx hardhat compile
+```
+
+To test
+```
+npx hardhat test
+```
+
+To deploy script
+```
+npx hardhat scripts/deploy.js
+```
+
+
+
