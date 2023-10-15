@@ -37,14 +37,14 @@ We are incredibly proud of the accomplishments we have achieved in our project f
 
 ## What's next for MediCare:A healthTrack system
 
--Fetching of data from ipfs.
--Deploying smart contract.
--Establish a feedback loop with patients to continuously improve the system.
--Enable patients to easily delete their data if they wish to do so.
--Implement robust backup and recovery procedures to prevent data loss.
--Provide robust customer support for patients who may have questions or issues with the system.
--Once the system is stable and secure, plan for scalability to accommodate a larger user base.
--Consider involving relevant stakeholders like medical professionals, hospitals, and regulatory bodies.
+- Fetching of data from ipfs.
+- Deploying smart contract.
+- Establish a feedback loop with patients to continuously improve the system.
+- Enable patients to easily delete their data if they wish to do so.
+- Implement robust backup and recovery procedures to prevent data loss.
+- Provide robust customer support for patients who may have questions or issues with the system.
+- Once the system is stable and secure, plan for scalability to accommodate a larger user base.
+- Consider involving relevant stakeholders like medical professionals, hospitals, and regulatory bodies.
 
 # How to get started
 
