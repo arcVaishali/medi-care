@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Login = () => (
@@ -46,9 +47,9 @@ const Login = () => (
                       aria-label="Username"
                       aria-describedby="password" />
                   </div>
-                  <a href="#" className="btn btn-dark" style={{color:"white", fontSize:18}}>Submit</a>
+                  <Link to="/patient-dashboard" className="btn btn-dark" style={{color:"white", fontSize:18}}>Submit</Link>
                   <div class="card-footer" style={{ color: "white" }}>
-                    Don't have an account? <a href="#" className="link">Sign Up</a>
+                    Don't have an account? <Link to="/register" className="link">Sign Up</Link>
                   </div>
                 </div>
               </div>

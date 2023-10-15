@@ -87,16 +87,17 @@ const ConsentForm2 = () => {
                     </div>
                   </p>
                   <div className="btn mt-2">
-                    <a
-                      href="#"
+                    <Link
+                      to="/consent"
                       className="btn btn-success"
                       style={{ color: "white", fontSize: 18 }}
                     >
                       Previous
-                    </a>
+                    </Link>
                   </div>
                   <div className="btn mt-2">
                     <Link
+                      to ="/login"
                       className="btn btn-success"
                       style={{ color: "white", fontSize: 18 }}
                     >

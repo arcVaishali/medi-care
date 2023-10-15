@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Consenter = () => {
   return (
@@ -50,13 +51,13 @@ const Consenter = () => {
                   </label>
                   <input type="number" class="form-control" id="number" />
                 </div>
-                <a
-                  href="#"
+                <Link
+                  to="/consenter-dashboard"
                   className="btn btn-success"
                   style={{ color: "white", fontSize: 20 }}
                 >
                   Submit
-                </a>
+                </Link>
               </div>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const Register = () => (
@@ -59,12 +60,12 @@ const Register = () => (
                   </div>
                   <div className="hey" style={{ border: " black 2px solid" }}>
                     <p style={{fontSize:20, color:"white"}}>Fill the consent form*</p>
-                    <a href="#" className="btn btn-primary">
+                    <Link to="/consent" className="btn btn-primary">
                       Consent Form
-                    </a>
+                    </Link>
                   </div>
                   <div class="card-footer" style={{ color: "white" }}>
-                    Already have an account? <a href="#" className="link">Login In</a>
+                    Already have an account? <Link to="/login" className="link">Login In</Link>
                   </div>
                 </div>
               </div>

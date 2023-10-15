@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const LandingPage = () => {
     const navigation = [
       { navi: "Home", to: "/" },
-      { navi: "About", to: "/" },
+      { navi: "About", to: "/about" },
       { navi: "Login", to: "/login" },
     ];
     const socials = [
