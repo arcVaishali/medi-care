@@ -1,4 +1,5 @@
 # data-hackfest
+# MediCare
 
 Hack for patient consent management using react.js, ether.js, ipfs, tailwindCss, solidity and hardhat.
 
