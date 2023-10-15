@@ -1,24 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Register from './pages/Register'
+import Login from './pages/Login'
+import ConsentForm from './pages/ConsentForm';
+import Consenter from './pages/Consenter';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     {/* <Register></Register> */}
+     <Login></Login>
+     {/* <ConsentForm></ConsentForm> */}
+     {/* <Consenter></Consenter> */}
+    </>
   );
 }
 
