@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ConsentForm = () => {
   return (
     <>
       <div className="bg-gradient-to-bl from-[#4D8470] to-white min-h-screen flex items-center justify-center">
         <div
-          className="shadow-md h-[600px] shadow-[#4D8470] rounded-xl border-2 border-[#A2E4A1] bg-gradient-to-t from-[#4D8470] to-[#A2E4A1] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8"
+          className="shadow-md shadow-[#4D8470] rounded-xl border-2 border-[#A2E4A1] bg-gradient-to-t from-[#4D8470] to-[#A2E4A1] transition ease-in-out delay-50 hover:-translate-y-2 duration-500 px-16 py-8 pb-16 h-[650px]"
           style={{ backgroundColor: "#BAAC9A" }}
         >
           <div className="card bg-dark text-white">
@@ -146,14 +147,13 @@ const ConsentForm = () => {
                     </div>
                   </div>
                   <div className="btn mt-1">
-                    <a
-                      href="#"
+                    <Link
+                      to="/next"
                       className="btn btn-dark"
-                      style={{ color: "white", fontSize: 18 }}
-                      // onClick={()=>func()}
+                      style={{ color: "white", fontSize: 18, marginTop:"20px" }}
                     >
                       Next
-                    </a>
+                    </Link>
                   </div>
 
                   <div
