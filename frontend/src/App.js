@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from './logo.svg';
 import './App.css';
 import Register from './pages/Register'
@@ -25,3 +26,5 @@ function App() {
 }
 
 export default App;
+=======
+>>>>>>> ce20497dea8dc08fec92be4666696002e44b01cb
