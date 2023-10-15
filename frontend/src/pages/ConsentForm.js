@@ -150,7 +150,7 @@ const ConsentForm = () => {
                       href="#"
                       className="btn btn-dark"
                       style={{ color: "white", fontSize: 18 }}
-                      onClick={()=>func()}
+                      // onClick={()=>func()}
                     >
                       Next
                     </a>
