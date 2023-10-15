@@ -3,7 +3,9 @@ import React from 'react'
 const ConsentForm = () => {
   return (
     <>
-      <h1 style={{fontSize: 30, textAlign:"center"}}>Medical Consent Form</h1>
+    <img src=""/>  
+    <h1 style={{fontSize: 30, textAlign:"center", color:"#4D8470"}}>Medical Consent Form</h1>
+
     </>
   )
 }

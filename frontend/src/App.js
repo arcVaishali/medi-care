@@ -7,9 +7,9 @@ import ConsentForm from './pages/ConsentForm';
 function App() {
   return (
     <>
-     <Register></Register>
+     {/* <Register></Register> */}
      {/* <Login></Login> */}
-     {/* <ConsentForm></ConsentForm> */}
+     <ConsentForm></ConsentForm>
     </>
   );
 }
