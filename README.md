@@ -26,5 +26,12 @@ npm install
 npm start
 ```
 
-Backend folder to be added
+For working on Backend
+```
+cd backend
+```
+
+```
+npm install
+```
 
